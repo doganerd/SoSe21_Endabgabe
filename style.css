@@ -1,0 +1,42 @@
+body {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto
+}
+
+label::after {
+	content:"";
+	display: block;
+}
+head {
+	display: none;
+}
+input:invalid {
+	background: #8f8a7f;
+}
+
+fieldset {
+	width: 300px;
+}
+
+#TeamA {
+    margin: auto;
+}
+
+#TeamB {
+    margin: auto;
+}
+
+button {
+    margin-top: 5%;
+    width: 20;
+    color: rgba(119, 252, 179, 0.637);
+}
+
+textarea {
+	width: 100%;
+}
+h1 {
+	grid-column: span 2;
+	text-align: left;
+}
